@@ -1,10 +1,9 @@
 # UnityPlugin-SimplePopup
-**[Setup]**
+### [Setup]
 1. Download SimplePopup.unitypackage in UnityPackage folder.
 2. Import package to your unity project.
 
-
-**[Usage]**
+### [Usage]
 1. Drag Prefab("PopupsManager(Canvas)") to Hierarchy.
 2. Make sure EventSystem is in current scene.(or create one)
 3. Then you can write syntax anywhere like this:
