@@ -1,11 +1,11 @@
-# UnityPlugin-SimplePopup
+# UnityPlugin-SimpleDialog
 ### [Setup]
-- Download SimplePopup.unitypackage in UnityPackage folder.
+- Download SimpleDialog.unitypackage in UnityPackage folder.
 - Import package to your unity project.
-- Drag Prefab("PopupsManager(Canvas)") to Hierarchy.
+- Drag Prefab("SimpleDialogManager(Canvas)") to Hierarchy.
 - Make sure EventSystem is in current scene.(or create one)
 
 ### [Usage]
 ```csharp
-AndyPack.Popups.ShowPopupVX("OuO", "QAQ", () => print("leftBtnCallBackMsg"), () => print("rightBtnCallBackMsg"));
+AndyPack.SimpleDialog.ShowDialogVX("OuO", "QAQ", () => print("leftBtnCallBackMsg"), () => print("rightBtnCallBackMsg"));
 ```
